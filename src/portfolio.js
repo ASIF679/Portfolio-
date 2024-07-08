@@ -226,8 +226,6 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
  
 };
-<p style="color: red; border: 1px solid red; padding: 10px; box-sizing: border-box;">VISIT my GITHUB TO SEE MORE interesting Projects</p>
-
   // Achievement Section
 // Include certificates, talks etc
 
