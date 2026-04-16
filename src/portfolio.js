@@ -212,6 +212,21 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/smarthomes.png"),
+      projectName: "Conversational AI System for IoT Devices",
+      projectDesc:
+        "Developed a conversational AI system for IoT smart homes, enabling users to query and monitor 10K+ sensor and device records via natural language. Built AI-powered SQL agents by integrating TimescaleDB with PostgreSQL (psql), improving time-series query efficiency by 40%. Designed end-to-end LLM pipelines using DeepSeek R1 LLaMA 70B (distilled), optimized for IoT sensor data ingestion and inference. Engineered the backend with FastAPI, PostgreSQL, and TimescaleDB. A demo is deployed on Vercel for showcase purposes.",
+      projectNote:
+        "Note: Sign in with username johndoe and password john123 to explore the project.",
+      projectUrl: "https://conversational-ai-sys-for-iot-devic-nine.vercel.app/login",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://conversational-ai-sys-for-iot-devic-nine.vercel.app/login"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/nextuLogo.png"),
       projectName: "Diabities Prediction using Machine Learning",
       projectDesc: " successfully completed a machine learning project focused on the prediction of diabetes using Linear Regression. This project involved data preprocessing, feature selection, and model training to accurately predict the likelihood of diabetes in patients based on various health metrics. The project demonstrated the effectiveness of Linear Regression in medical prediction tasks and provided actionable insights for healthcare professionals.",
