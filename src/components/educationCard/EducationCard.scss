@@ -78,6 +78,19 @@
   margin-top: 0.5rem;
 }
 
+.award-highlight-bullet {
+  color: #00a651 !important;
+  font-weight: 700;
+  display: list-item;
+  margin-top: 0.25rem;
+  padding: 0;
+  background: transparent;
+}
+
+.award-highlight-bullet::marker {
+  color: #00a651;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {

@@ -42,6 +42,8 @@ export default function StartupProject() {
                       ? "dark-mode project-card project-card-dark"
                       : "project-card project-card-light"
                   }
+                  style={{cursor: project.projectUrl ? "pointer" : "default"}}
+                  onClick={() => openUrlInNewTab(project.projectUrl)}
                 >
                   {project.image ? (
                     <div className="project-image">

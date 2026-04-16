@@ -113,7 +113,7 @@ const educationInfo = {
       CGPA: "3.60",
       desc: "Programing Fundamentals , object oriented programming, Data Structures and algorithm, Data base and management systems , Machine learning , Deep learning , Data Science and Big Data Programming  ",
       descBullets: [
-      
+        "Awarded as Best Final Year Design Project Gold Medalist."
       ]
     },
     ]
@@ -146,13 +146,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Machine learning/Data analyst",
-      company: "Fiver",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "May 2022 – Present",
-      desc: "Completed over 10 projects in data analysis and machine learning., Developed machine learning models to provide predictive insights, Utilized Power BI and Tableau for data visualization, creating interactive dashboards for client reports et dolore magna aliqua   Delivered data-driven solutions that optimized client operations and enhanced decision-making processes .",
+      role: "AI Engineer / Backend Developer",
+      company: "Visnext Software Solutions",
+      companylogo: require("./assets/images/Visnext Software Solution.jpg"),
+      date: "Aug 2024 - Aug 2025 · 1 yr",
+      bannerColor: "#0f3557",
+      desc: "Built scalable AI and backend systems for smart-home IoT analytics using modern LLM and database technologies.",
       descBullets: [
-         ]
+        "Developed a Conversational AI system for IoT smart homes, enabling users to query and monitor 10K+ sensor/device records via natural language.",
+        "Built AI-powered SQL agents by integrating TimescaleDB with PostgreSQL (psql), improving time-series query efficiency by 40%.",
+        "Designed end-to-end LLM pipelines using DeepSeek R1 LLaMA 70B (distilled), optimized for IoT sensor data ingestion and inference.",
+        "Engineered the backend with FastAPI and PSQL along with TimescaleDB."
+      ]
+    },
+    {
+      role: "AI Engineer",
+      company: "F & A Global",
+      companylogo: require("./assets/images/f_a_global_logo.jpg"),
+      date: "Oct 2025 - March 2026",
+      desc: "Designed and engineered AI solutions for automated carbon emission measurement and calculation. Gained a strong understanding of how AI can be used in healthcare.",
+      descBullets: [
+        "Contributed in development of AI-powered automation for carbon emissions measurement, reducing manual effort by 80% and speeding up reporting by 60%.",
+        "Enhanced SQL agents to automate data extraction, validation, and transformation, improving data accuracy by 25% and reducing processing time by 40%.",
+        "Processed 10K+ domain-specific records to fine-tune Llama 3.1 (8B) and participated in adapter-based fine-tuning using PEFT with instruction tuning, improving task performance by 30%.",
+        "Developed backend APIs using FastAPI and implemented batch processing for large datasets, increasing workflow efficiency by 50%.",
+        "Worked with cross-functional teams to convert healthcare and sustainability requirements into scalable AI solutions, accelerating project delivery by 30%."
+      ]
     },
     {
       role: "React.JS Developer Intern",
@@ -160,13 +179,6 @@ const workExperiences = {
       companylogo: require("./assets/images/quoraLogo.jpeg"),
       date: "SEP 2023 – NOV 2023",
       desc: "Applied ReactJS concepts to develop dynamic and responsive web applications.,Built and enhanced user interfaces using ReactJS, improving user experience, Collaborated with a team to implement interactive features and optimize performance."
-    },
-    {
-      role: "Frontend Web developer Intern",
-      company: "Intern Pakistan",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "June 2023 – Aug 2023",
-      desc: "Developed and enhanced web applications using HTML, CSS, and JavaScript, Collaborated with a team to design and implement user-friendly web interfaces, Improved coding skills and learned industry best practices for web development.."
     }
   ]
 };
@@ -182,17 +194,19 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SHOPSMART A REAL TIME PRICE COMPARISION",
+  title: "Projects",
+  subtitle: "Production-grade AI and software projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.png"),
-      projectName: "ShopSmart Navigating the best deals online :",
-      projectDesc: "Developed a robust web application enabling real-time price comparison of electronic devices (mobile phones and laptops) across various e-commerce platforms.Utilized Python (BeautifulSoup, Scrapy) for efficient data scraping and PostgreSQL for data storage.Created a web API using ASP.NET Core to facilitate data retrieval.Designed an intuitive user interface with React.js and Material-UI, enhancing user experience in comparing product prices and features.",
+      image: require("./assets/images/Ripple AI.png"),
+      projectName: "Ripple AI Suicide Prevention Platform",
+      projectDesc:
+        "Contributed to the development of Ripple AI, a production-grade suicide prevention platform, during my time at Visnext. I worked on translation, text and sentiment classification, and FastAPI backend enhancements. I designed and integrated Redis queues and background jobs, which improved API response time by 80%. I also integrated multiple LLMs including GPT-4.0 and DeepSeek R1 to support intelligent, scalable workflows.",
+      projectUrl: "https://www.ripplesuicideprevention.com/",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/ASIF679/"
+          url: "https://www.ripplesuicideprevention.com/"
         }
         //  you can add extra buttons here.
       ]

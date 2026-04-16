@@ -9,7 +9,16 @@ export default function EducationCard({school}) {
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
+          <li
+            key={i}
+            className={`subTitle ${
+              item
+                .toLowerCase()
+                .includes("best final year design project gold medalist")
+                ? "award-highlight-bullet"
+                : ""
+            }`}
+          >
             {item}
           </li>
         ))
